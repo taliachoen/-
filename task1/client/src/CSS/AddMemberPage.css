@@ -1,0 +1,53 @@
+/* AddMemberPage.css */
+
+body {
+  background-color: #f0f0f0; /* רקע בהיר */
+}
+
+.container {
+  width: 50%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* מירכוז אופקי */
+}
+
+h2 {
+  font-family: Arial, sans-serif; /* מורה מיוחדת */
+  font-size: 24px; /* גודל הכותרת */
+  font-weight: bold; /* טקסט בולט */
+  margin-bottom: 20px; /* מרווח מתחת לכותרת */
+  text-align: center;
+}
+
+/* Form styles */
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.label-input {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end; /* מירכוז אופקי לימין */
+}
+
+input {
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+button {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}

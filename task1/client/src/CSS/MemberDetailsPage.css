@@ -1,0 +1,60 @@
+/* CSS for MemberDetailsPage */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0; /* צבע רקע */
+  margin: 0;
+  padding: 0;
+  text-align: center;
+
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h2 {
+  color: #333; /* צבע כותרת */
+}
+
+p {
+  color: #555; /* צבע טקסט */
+  margin-bottom: 10px; /* מרווח מתחת לפסקה */
+}
+
+label {
+  display: block;
+  margin-bottom: 10px; /* מרווח מתחת לשדה קלט */
+}
+
+input[type="text"] {
+  width: 25%; /* רוחב השדה קלט */
+  padding: 10px; /* רוחב השדה קלט */
+  margin-top: 5px; /* מרווח מעל לשדה קלט */
+  margin-bottom: 15px; /* מרווח מתחת לשדה קלט */
+  border-radius: 5px; /* פינות מעגלות */
+  border: 1px solid #ccc; /* גבול סביב לשדה קלט */
+}
+
+button {
+  background-color: #1565c0; /* צבע רקע של הכפתורים */
+  color: #fff; /* צבע טקסט של הכפתורים */
+  border: none; /* גבול ללא תווית */
+  padding: 10px 20px; /* גודל הכפתור */
+  border-radius: 5px; /* פינות מעגלות */
+  cursor: pointer; /* סמן עכבר מצביע כמו כפתור */
+  margin-top: 20px; /* מרווח מעל לכפתור */
+}
+
+button:hover {
+  background-color: #0056b3; /* צבע רקע בעת מעבר עכבר */
+}
+
+/* עיצוב עבור הכתובית "Loading..." */
+.loading {
+  text-align: center;
+  font-size: 20px;
+  margin-top: 50px;
+}

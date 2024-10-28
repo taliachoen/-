@@ -1,0 +1,36 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #1f25d96c; /* גוון תכלת */
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  color: #1565c0; /* גוון כחול כהה */
+  margin-top: 50px; /* מרווח מהעליון */
+  margin-bottom: 40px;
+  font-size: 50px; /* גודל גופן גדול */
+}
+
+a:link, a:visited {
+  background-color: white;
+  color: black;
+  border: 4px solid rgba(0, 49, 128, 0.362);
+  padding: 20px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  display: grid;
+  grid-template-rows: repeat(2, 1fr); /* שני עמודים ברוחב שווה */
+  gap: 10px; /* מרווח בין הכפתורים */
+  justify-content: center; /* מרכז כפתורים באופן אופקי */
+   width: 300px;
+   margin-left: 38%;
+}
+
+a:hover {
+  background-color: #64b5f6; 
+}
+
+

@@ -1,0 +1,32 @@
+#link{
+  background-color: white;
+  opacity: 70%;
+   color: black;
+ padding: 0;
+ width: 350px;
+ margin-right:150px;
+ margin-bottom: 50px;
+ height: 50px;
+   border: 4px solid rgba(248, 245, 245, 0.362)
+}
+
+ul {
+  list-style-type: none; /* מוריד סגנון רשימה עם עיגולים */
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px; /* מרווח בין כל איבר ברשימה */
+}
+
+li a {
+  display: block; /* הפיכת הקישור לבלוק למילוי כל התא */
+  padding: 10px; /* רווח בתא */
+  background-color: #f0f0f0; /* צבע רקע של תא הרשימה */
+  border-radius: 5px; /* פינות מעוגלות */
+  text-decoration: none; /* מוריד קווים תחתונים מהקישור */
+}
+
+li a:hover {
+  background-color: #ddd; /* צבע רקע של התא בעת העכבר מעליו */
+}
